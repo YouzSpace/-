@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>活动展示 - 爱心公益</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">爱心公益</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="about.html">关于我们</a></li>
+          <li><a href="services.html">公益项目</a></li>
+          <li><a href="gallery.html" class="active">活动展示</a></li>
+          <li><a href="contact.html">参与我们</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+      <!-- 活动展示头部 -->
+      <section class="gallery-header">
+        <div class="container">
+          <h1>活动展示</h1>
+          <p>记录每一个温暖瞬间，传递每一份爱的力量</p>
+        </div>
+      </section>
+
+      <!-- 活动分类 -->
+      <section class="gallery-categories">
+        <div class="container">
+          <div class="category-buttons">
+            <button class="category-btn active" data-category="all">
+              全部活动
+            </button>
+            <button class="category-btn" data-category="education">
+              教育支持
+            </button>
+            <button class="category-btn" data-category="poverty">
+              扶贫救助
+            </button>
+            <button class="category-btn" data-category="environment">
+              环境保护
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 活动图片展示 -->
+      <section class="gallery-grid">
+        <div class="container">
+          <div class="image-grid">
+            <!-- 教育支持活动 -->
+            <div class="gallery-item" data-category="education">
+              <img src="images/gallery/education1.jpg" alt="支教活动" />
+              <div class="item-overlay">
+                <h3>山区支教活动</h3>
+                <p>志愿者为山区孩子带去知识和欢乐</p>
+                <span class="date">2023-12-15</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="education">
+              <img src="images/gallery/education2.jpg" alt="助学金发放" />
+              <div class="item-overlay">
+                <h3>助学金发放仪式</h3>
+                <p>为贫困学生发放助学金，帮助他们继续求学</p>
+                <span class="date">2023-11-20</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="education">
+              <img src="images/gallery/education3.jpg" alt="图书捐赠" />
+              <div class="item-overlay">
+                <h3>爱心图书捐赠</h3>
+                <p>为乡村学校捐赠图书，丰富学生课外阅读</p>
+                <span class="date">2023-10-25</span>
+              </div>
+            </div>
+
+            <!-- 扶贫救助活动 -->
+            <div class="gallery-item" data-category="poverty">
+              <img src="images/gallery/poverty1.jpg" alt="物资发放" />
+              <div class="item-overlay">
+                <h3>冬季物资发放</h3>
+                <p>为困难家庭送去温暖冬衣和生活物资</p>
+                <span class="date">2023-12-10</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="poverty">
+              <img src="images/gallery/poverty2.jpg" alt="技能培训" />
+              <div class="item-overlay">
+                <h3>农村技能培训</h3>
+                <p>开展农业技术培训，助力乡村振兴</p>
+                <span class="date">2023-11-15</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="poverty">
+              <img src="images/gallery/poverty3.jpg" alt="医疗义诊" />
+              <div class="item-overlay">
+                <h3>乡村义诊活动</h3>
+                <p>组织医疗专家下乡义诊，关爱村民健康</p>
+                <span class="date">2023-10-20</span>
+              </div>
+            </div>
+
+            <!-- 环境保护活动 -->
+            <div class="gallery-item" data-category="environment">
+              <img src="images/gallery/environment1.jpg" alt="植树活动" />
+              <div class="item-overlay">
+                <h3>春季植树活动</h3>
+                <p>志愿者参与植树造林，共建绿色家园</p>
+                <span class="date">2023-03-12</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="environment">
+              <img src="images/gallery/environment2.jpg" alt="环保宣传" />
+              <div class="item-overlay">
+                <h3>环保知识宣传</h3>
+                <p>走进校园开展环保教育活动</p>
+                <span class="date">2023-06-05</span>
+              </div>
+            </div>
+            <div class="gallery-item" data-category="environment">
+              <img src="images/gallery/environment3.jpg" alt="垃圾分类" />
+              <div class="item-overlay">
+                <h3>垃圾分类活动</h3>
+                <p>推广垃圾分类知识，保护城市环境</p>
+                <span class="date">2023-09-15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 视频展示 -->
+      <section class="video-section">
+        <div class="container">
+          <h2>活动视频</h2>
+          <div class="video-grid">
+            <div class="video-item">
+              <div class="video-container">
+                <video controls>
+                  <source
+                    src="http://api.mmp.cc/api/ksvideo?type=mp4&id=jk"
+                    type="video/mp4"
+                  />
+                  您的浏览器不支持 video 标签。
+                </video>
+              </div>
+              <div class="video-info">
+                <h3>爱心助学纪实</h3>
+                <p>记录志愿者支教的感人故事</p>
+              </div>
+            </div>
+            <div class="video-item">
+              <div class="video-container">
+                <video controls>
+                  <source
+                    src="http://api.mmp.cc/api/ksvideo?type=mp4&id=jk"
+                    type="video/mp4"
+                  />
+                  您的浏览器不支持 video 标签。
+                </video>
+              </div>
+              <div class="video-info">
+                <h3>扶贫项目回顾</h3>
+                <p>展示扶贫救助工作的成果</p>
+              </div>
+            </div>
+            <div class="video-item">
+              <div class="video-container">
+                <video controls>
+                  <source
+                    src="http://api.mmp.cc/api/ksvideo?type=mp4&id=jk"
+                    type="video/mp4"
+                  />
+                  您的浏览器不支持 video 标签。
+                </video>
+              </div>
+              <div class="video-info">
+                <h3>绿色中国行</h3>
+                <p>记录环保志愿者的公益行动</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 活动预告 -->
+      <section class="upcoming-events">
+        <div class="container">
+          <h2>即将开展的活动</h2>
+          <div class="events-grid">
+            <div class="event-card">
+              <div class="event-date">
+                <span class="day">25</span>
+                <span class="month">12月</span>
+              </div>
+              <div class="event-info">
+                <h3>寒冬送温暖行动</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 河北省张家口市</p>
+                <p><i class="fas fa-clock"></i> 09:00 - 17:00</p>
+                <a href="contact.html" class="event-btn">我要报名</a>
+              </div>
+            </div>
+            <div class="event-card">
+              <div class="event-date">
+                <span class="day">01</span>
+                <span class="month">01月</span>
+              </div>
+              <div class="event-info">
+                <h3>新年助学活动</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 云南省丽江市</p>
+                <p><i class="fas fa-clock"></i> 10:00 - 16:00</p>
+                <a href="contact.html" class="event-btn">我要报名</a>
+              </div>
+            </div>
+            <div class="event-card">
+              <div class="event-date">
+                <span class="day">15</span>
+                <span class="month">01月</span>
+              </div>
+              <div class="event-info">
+                <h3>环保知识讲座</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 北京市海淀区</p>
+                <p><i class="fas fa-clock"></i> 14:00 - 16:30</p>
+                <a href="contact.html" class="event-btn">我要报名</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>联系方式</h4>
+            <p><i class="fas fa-envelope"></i> contact@aixin.org</p>
+            <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+          </div>
+          <div class="footer-section">
+            <h4>关注我们</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-weixin"></i></a>
+              <a href="#"><i class="fab fa-weibo"></i></a>
+              <a href="#"><i class="fab fa-qq"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>快速链接</h4>
+            <ul class="footer-links">
+              <li><a href="about.html">关于我们</a></li>
+              <li><a href="services.html">公益项目</a></li>
+              <li><a href="contact.html">参与我们</a></li>
+              <li><a href="#">捐赠方式</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; <span id="year"></span> 爱心公益. 保留所有权利.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
